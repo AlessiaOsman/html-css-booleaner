@@ -45,3 +45,20 @@ span
 ul{
     padding: 0 16px;
 }
+table{
+    text-align: left;
+    width: 100%;
+}
+thead{
+    color: #ffffff;
+    background-color: #03a9f4;
+}
+.tbody-row{
+    background-color: #95d6f5;
+}
+th{
+    width: 25%;
+}
+.third-column{
+    width: 50%;
+}
