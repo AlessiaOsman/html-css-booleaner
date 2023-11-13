@@ -1,4 +1,4 @@
-body{
+*{
     margin: 0;
 }
 
@@ -11,9 +11,29 @@ header{
     background-image: url('../img/pattern.png');
     background-color: #03a9f4;
     background-size: 300px;
+    margin-bottom: 24px;
 }
 
 .logo{
     width: 200px;
     margin: 24px 0;
+}
+
+.title-container{
+    margin-bottom: 24px;
+}
+
+address,
+.date{
+    font-style: normal;
+    color: grey;
+}
+
+span
+{
+    color: #03a9f4;
+}
+.date,
+.picture-description{
+    font-size: 12px;
 }
