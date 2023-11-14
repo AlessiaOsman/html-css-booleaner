@@ -46,13 +46,13 @@ span {
 }
 
 ul {
-    padding: 0 16px;
+    padding: 0 16px;  /*La soluzione più corretta era padding-inline-start: 0; list-style-position: inside;*/
 }
 
 table {
     text-align: left;
     width: 100%;
-    border-spacing: 0;
+    border-spacing: 0; /*oppure border-collaps: collaps*/
 }
 
 thead {
@@ -65,7 +65,7 @@ thead {
 }
 
 th {
-    width: 25%;
+    width: 25%;/*Questa width era superflua*/
 }
 
 .third-column {
